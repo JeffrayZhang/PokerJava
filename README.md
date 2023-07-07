@@ -3,7 +3,7 @@
 This is a simple card game implemented in Java. The game allows players to draw a hand of 5 cards from a shuffled deck, replace some of the cards, and evaluate the final hand to determine the winning combination.
 
 
-Getting Started
+## Getting Started
 
 To play the game, follow these steps:
 
@@ -12,7 +12,7 @@ Open the project in your favorite Java development environment.
 Compile the Java files to generate the executable bytecode.
 Run the GameTest class, which contains the main method, to start the game.
 
-Game Rules
+## Game Rules
 
 The game starts by creating a deck of cards and shuffling it.
 The player is then prompted to draw a hand of 5 cards from the deck.
@@ -22,7 +22,8 @@ The game evaluates the hand to determine the winning combination or the highest 
 The player is given the option to play again. If they choose to play again, the game restarts from step 1.
 Class Descriptions
 
-Player Class
+## Classes
+### Player Class
 
 This class represents a player in the game.
 It contains two methods:
@@ -32,7 +33,7 @@ GameTest Class
 This class contains the main method and is used to start the game.
 It creates a Game object and calls its play method to start the game.
 
-Game Class
+### Game Class
 
 This class represents the game and contains the main logic.
 It has several methods:
@@ -45,12 +46,12 @@ royalFlush(), straightFlush(), fourOfaKind(), fullHouse(), flush(), straight(), 
 again(): Asks the player if they want to play again.
 display(Card card): Displays a single card from the player's hand.
 
-Deck Class
+### Deck Class
 
 This class represents a deck of cards.
 It contains methods to fill the deck, shuffle the cards, deal a hand, draw the next card, and refresh the deck position.
 
-Card Class
+### Card Class
 
 This class represents a single playing card.
 It implements the Comparable interface to allow sorting based on the card's rank.
